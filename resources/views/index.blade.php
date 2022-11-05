@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +10,6 @@
     <title>Laravel-model-controller</title>
 </head>
 <body>
-ciao
+    @dd($movies)
 </body>
 </html>
