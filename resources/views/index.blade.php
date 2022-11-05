@@ -10,6 +10,9 @@
     <title>Laravel-model-controller</title>
 </head>
 <body>
-    @dd($movies)
+
+    @foreach ($movies as $movie)
+        <div>{{ $movie['title'] }}</div>
+    @endforeach
 </body>
 </html>
